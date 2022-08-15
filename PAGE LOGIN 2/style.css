@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.box {
+    width: 805px;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    background: #1f1c1c;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.Logon {
+    text-decoration: none;
+    color: aqua;
+    position: absolute;
+    font-family: 'Loto', sans-serif;
+    margin-top: 40px;
+    font-weight: 700;
+    right: 63px;
+}
+
+p {
+    position: absolute;
+    font-weight: 700;
+    top: 25px;
+    right: 150px;
+    color: rgb(255, 255, 255);
+    font-family: 'Loto', sans-serif;
+}
+
+h1 {
+    width: 440px;
+    height: 120px;
+    position: relative;
+    right: 183px;
+    left: 183px;
+    top: 58px;
+    font-size: 33px;
+    font-family: 'Loto', sans-serif;
+}
+
+span {
+    color: #00B6FF;
+}
+
+.Sing-Up {
+    color: #00B6FF;
+    cursor: pointer;
+}
+
+.arrow-Back {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 735px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.section-inputs {
+    display: flex;
+
+}
+
+.inputs {
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    right: 240px;
+    top: 70px;
+    width: 400px;
+    margin-top: 100px;
+}
+
+.inp-nome,
+.inp-email,
+.inp-senha {
+    font-family: "Loto", sans-serif;
+    font-size: 18px;
+
+    margin-top: 10px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4e4e4e;
+    color: #fff;
+}
+
+.inp-nome,
+.inp-email,
+.inp-senha:focus {
+    outline: none;
+}
+
+.btn-entrar {
+    position:absolute;  
+    top: 350px;
+    right: 290px;
+    width: 300px;
+    
+
+   font-family:'Loto', sans-serif;
+    margin-top: 50px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a1a0a0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s background-color;
+}
+.btn-entrar:hover{
+    background-color:#f1d8d8;
+}
+.esqueci1{
+    text-align: right;
+    text-decoration: none;
+   font-family:'Loto', sans-serif;
+   margin-top: 5px; 
+   font-size: 13px;
+   color: #00B6FF;
+}
+.registro-menbro{
+    margin-right: 100px;
+    margin-top: 430px;
+    color: #a5a5a5;
+}
+.a-regis{
+    color: #00B6FF;
+    margin-right: 14px;
+}
+.container{
+    clear: both;
+
+}
+.img{
+    vertical-align: top;
+    max-width: 900px;
+    max-height: 900px;
+    width: 570px;
+    height: 635px;
+}
